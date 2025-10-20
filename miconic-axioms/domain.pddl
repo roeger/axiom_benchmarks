@@ -1,5 +1,5 @@
 (define (domain miconic)
-  (:requirements :strips :derived-predicates)
+  (:requirements :strips :derived-predicates :adl)
   
 
 (:predicates 

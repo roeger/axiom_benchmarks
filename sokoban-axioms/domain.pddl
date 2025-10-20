@@ -1,6 +1,7 @@
 
 (define (domain sokoban-sequential)
-  (:requirements :typing :derived-predicates)
+  (:requirements :typing :derived-predicates :existential-preconditions
+    :action-costs)
   (:types thing location direction - object
           player stone - thing)
 

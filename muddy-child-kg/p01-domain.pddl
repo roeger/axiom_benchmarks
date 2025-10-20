@@ -1,5 +1,5 @@
 (define (domain dhmiourgimeno)
-(:requirements :conditional-effects)
+(:requirements :conditional-effects :disjunctive-preconditions)
 (:predicates
 (mas0) 
 (mas1) 
@@ -183,6 +183,8 @@
 (s7s7c)
 )
  (:action all_sense_p
+:parameters()
+:precondition ()
 :effect ( and 
 (s0s1a) (s0s1b) (s0s1c) 
 (s0s2a) (s0s2b) (s0s2c) 
@@ -202,6 +204,8 @@
 
 
  (:action a_senses
+:parameters()
+:precondition ()
 :effect ( and 
 (s0s1a) 
 (s0s2a) 
@@ -271,6 +275,8 @@
 
 
  (:action b_senses
+:parameters()
+:precondition ()
 :effect ( and 
 (s0s1b) 
 (s0s2b) 
@@ -340,6 +346,8 @@
 
 
  (:action c_senses
+:parameters()
+:precondition ()
 :effect ( and 
 (s0s1c) 
 (s0s2c) 
@@ -409,6 +417,8 @@
 
 
  (:action a_asks_b
+:parameters()
+:precondition ()
 :effect ( and 
 ( when (and (kbmbs0) (not(kbmbs1))) (and (s0s1a) (s0s1c) ))
 ( when (and (kbmbs0) (not(kbmbs2))) (and (s0s2a) (s0s2c) ))
@@ -470,6 +480,8 @@
 
 
  (:action a_asks_c
+:parameters()
+:precondition ()
 :effect ( and 
 ( when (and (kcmcs0) (not(kcmcs1))) (and (s0s1a) (s0s1b) ))
 ( when (and (kcmcs0) (not(kcmcs2))) (and (s0s2a) (s0s2b) ))

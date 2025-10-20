@@ -7,7 +7,7 @@
 
 (:requirements  :equality
  ;; equality needed for blocked transition in case of a mismatch
-
+ :adl
  :typing)
 (:types process proctype state queue transition
         number_ message

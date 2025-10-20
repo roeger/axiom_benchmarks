@@ -1,5 +1,5 @@
 (define (domain dhmiourgimeno)
-(:requirements :conditional-effects)
+(:requirements :conditional-effects :disjunctive-preconditions)
 (:predicates
 (r1as0) 
 (r1as1) 
@@ -351,6 +351,8 @@
 (s8s8b)
 )
  (:action b_moves_left
+:parameters ()
+:precondition ()
 :effect ( and 
 ( when (and (r2bs0) ) (and (not(r2bs0)) (r1bs0) ))
 ( when (and (r2bs1) ) (and (not(r2bs1)) (r1bs1) ))
@@ -384,6 +386,8 @@
 
 
  (:action b_moves_right
+:parameters ()
+:precondition ()
 :effect ( and 
 ( when (and (r1bs0) ) (and (not(r1bs0)) (r2bs0) ))
 ( when (and (r1bs1) ) (and (not(r1bs1)) (r2bs1) ))
@@ -417,6 +421,7 @@
 
 
  (:action b_senses_in_r1
+:parameters ()
 :precondition (and  (r1b) )
 :effect ( and 
 (s0s1b) 
@@ -495,6 +500,7 @@
 
 
  (:action b_senses_in_r3
+:parameters ()
 :precondition (and  (r3b) )
 :effect ( and 
 (s0s1b) 
@@ -573,6 +579,7 @@
 
 
  (:action b_senses_in_r4
+:parameters ()
 :precondition (and  (r4b) )
 :effect ( and 
 (s0s2b) 
@@ -651,6 +658,8 @@
 
 
  (:action b_senses_if_a_knows_blue_in_r3
+:parameters ()
+:precondition ()
 :effect ( and 
 ( when (and (kar3blues0) (not(kar3blues1))) (and (s0s1b) ))
 ( when (and (kar3blues0) (not(kar3blues2))) (and (s0s2b) ))
@@ -728,6 +737,8 @@
 
 
  (:action b_senses_if_a_knows_blue_in_r4
+:parameters ()
+:precondition ()
 :effect ( and 
 ( when (and (kar4blues0) (not(kar4blues1))) (and (s0s1b) ))
 ( when (and (kar4blues0) (not(kar4blues2))) (and (s0s2b) ))
@@ -805,6 +816,8 @@
 
 
  (:action b_senses_if_a_knows_blue_in_r1
+:parameters ()
+:precondition ()
 :effect ( and 
 ( when (and (kar1blues0) (not(kar1blues1))) (and (s0s1b) ))
 ( when (and (kar1blues0) (not(kar1blues2))) (and (s0s2b) ))
@@ -882,6 +895,8 @@
 
 
  (:action b_senses_if_a_knows_red_in_r3
+:parameters ()
+:precondition ()
 :effect ( and 
 ( when (and (kar3reds0) (not(kar3reds1))) (and (s0s1b) ))
 ( when (and (kar3reds0) (not(kar3reds2))) (and (s0s2b) ))
@@ -959,6 +974,8 @@
 
 
  (:action b_senses_if_a_knows_red_in_r4
+:parameters ()
+:precondition ()
 :effect ( and 
 ( when (and (kar4reds0) (not(kar4reds1))) (and (s0s1b) ))
 ( when (and (kar4reds0) (not(kar4reds2))) (and (s0s2b) ))
@@ -1036,6 +1053,8 @@
 
 
  (:action b_senses_if_a_knows_red_in_r1
+:parameters ()
+:precondition ()
 :effect ( and 
 ( when (and (kar1reds0) (not(kar1reds1))) (and (s0s1b) ))
 ( when (and (kar1reds0) (not(kar1reds2))) (and (s0s2b) ))
@@ -1113,6 +1132,8 @@
 
 
  (:action a_moves_left
+:parameters ()
+:precondition ()
 :effect ( and 
 ( when (and (r2as0) ) (and (not(r2as0)) (r1as0) ))
 ( when (and (r2as1) ) (and (not(r2as1)) (r1as1) ))
@@ -1146,6 +1167,8 @@
 
 
  (:action a_moves_right
+:parameters ()
+:precondition ()
 :effect ( and 
 ( when (and (r1as0) ) (and (not(r1as0)) (r2as0) ))
 ( when (and (r1as1) ) (and (not(r1as1)) (r2as1) ))
@@ -1179,6 +1202,7 @@
 
 
  (:action a_senses_in_r1
+:parameters ()
 :precondition (and  (r1a) )
 :effect ( and 
 (s0s1a) 
@@ -1257,6 +1281,7 @@
 
 
  (:action a_senses_in_r3
+:parameters ()
 :precondition (and  (r3a) )
 :effect ( and 
 (s0s1a) 
@@ -1335,6 +1360,7 @@
 
 
  (:action a_senses_in_r4
+:parameters ()
 :precondition (and  (r4a) )
 :effect ( and 
 (s0s2a) 
@@ -1413,6 +1439,8 @@
 
 
  (:action a_senses_if_b_knows_red_in_r3
+:parameters ()
+:precondition ()
 :effect ( and 
 ( when (and (kbr3reds0) (not(kbr3reds1))) (and (s0s1a) ))
 ( when (and (kbr3reds0) (not(kbr3reds2))) (and (s0s2a) ))
@@ -1490,6 +1518,8 @@
 
 
  (:action a_senses_if_b_knows_red_in_r1
+:parameters ()
+:precondition ()
 :effect ( and 
 ( when (and (kbr1reds0) (not(kbr1reds1))) (and (s0s1a) ))
 ( when (and (kbr1reds0) (not(kbr1reds2))) (and (s0s2a) ))
@@ -1567,6 +1597,8 @@
 
 
  (:action a_senses_if_b_knows_red_in_r4
+:parameters ()
+:precondition ()
 :effect ( and 
 ( when (and (kbr4reds0) (not(kbr4reds1))) (and (s0s1a) ))
 ( when (and (kbr4reds0) (not(kbr4reds2))) (and (s0s2a) ))
@@ -1644,6 +1676,8 @@
 
 
  (:action a_senses_if_b_knows_blue_inr3
+:parameters ()
+:precondition ()
 :effect ( and 
 ( when (and (kbr3blues0) (not(kbr3blues1))) (and (s0s1a) ))
 ( when (and (kbr3blues0) (not(kbr3blues2))) (and (s0s2a) ))
@@ -1721,6 +1755,8 @@
 
 
  (:action a_senses_if_b_knows_blue_inr1
+:parameters ()
+:precondition ()
 :effect ( and 
 ( when (and (kbr1blues0) (not(kbr1blues1))) (and (s0s1a) ))
 ( when (and (kbr1blues0) (not(kbr1blues2))) (and (s0s2a) ))
@@ -1798,6 +1834,8 @@
 
 
  (:action a_senses_if_b_knows_blue_inr4
+:parameters ()
+:precondition ()
 :effect ( and 
 ( when (and (kbr4blues0) (not(kbr4blues1))) (and (s0s1a) ))
 ( when (and (kbr4blues0) (not(kbr4blues2))) (and (s0s2a) ))

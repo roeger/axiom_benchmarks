@@ -1,6 +1,6 @@
 
 (define (domain blocker-strips)
-  (:requirements :strips :derived-predicates)
+  (:requirements :strips :derived-predicates :adl)
 
   ;; The set of objects are the numbers from 0 to N-1, where N is the
   ;; number of nodes in the graph. These are used both to represent the

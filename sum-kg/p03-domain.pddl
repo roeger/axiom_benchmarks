@@ -1,5 +1,5 @@
 (define (domain dhmiourgimeno)
-(:requirements :conditional-effects)
+(:requirements :conditional-effects :disjunctive-preconditions)
 (:predicates
 (a1s0) 
 (a1s1) 
@@ -309,6 +309,8 @@
 (s8s8c)
 )
  (:action all_sense
+:parameters ()
+:precondition()
 :effect ( and 
 (s0s1a) 
 (s0s3a) 
@@ -938,6 +940,8 @@
 
 
  (:action all_hear_if_b_knows_his_number_1
+:parameters ()
+:precondition()
 :effect ( and 
 ( when (and (kbb1s0) (not(kbb1s1))) (and (s0s1a) (s0s1c) ))
 ( when (and (kbb1s0) (not(kbb1s2))) (and (s0s2a) (s0s2c) ))
@@ -1015,6 +1019,8 @@
 
 
  (:action all_hear_if_b_knows_his_number_2
+:parameters ()
+:precondition()
 :effect ( and 
 ( when (and (kbb2s0) (not(kbb2s1))) (and (s0s1a) (s0s1c) ))
 ( when (and (kbb2s0) (not(kbb2s2))) (and (s0s2a) (s0s2c) ))
@@ -1092,6 +1098,8 @@
 
 
  (:action all_hear_if_b_knows_his_number_3
+:parameters ()
+:precondition()
 :effect ( and 
 ( when (and (kbb3s0) (not(kbb3s1))) (and (s0s1a) (s0s1c) ))
 ( when (and (kbb3s0) (not(kbb3s2))) (and (s0s2a) (s0s2c) ))
@@ -1169,6 +1177,8 @@
 
 
  (:action all_hear_if_c_knows_his_number_1
+:parameters ()
+:precondition()
 :effect ( and 
 ( when (and (kcc1s0) (not(kcc1s1))) (and (s0s1a) (s0s1b) ))
 ( when (and (kcc1s0) (not(kcc1s2))) (and (s0s2a) (s0s2b) ))
@@ -1246,6 +1256,8 @@
 
 
  (:action all_hear_if_c_knows_his_number_2
+:parameters ()
+:precondition()
 :effect ( and 
 ( when (and (kcc2s0) (not(kcc2s1))) (and (s0s1a) (s0s1b) ))
 ( when (and (kcc2s0) (not(kcc2s2))) (and (s0s2a) (s0s2b) ))
@@ -1323,6 +1335,8 @@
 
 
  (:action all_hear_if_c_knows_his_number_3
+:parameters ()
+:precondition()
 :effect ( and 
 ( when (and (kcc3s0) (not(kcc3s1))) (and (s0s1a) (s0s1b) ))
 ( when (and (kcc3s0) (not(kcc3s2))) (and (s0s2a) (s0s2b) ))
@@ -1400,6 +1414,8 @@
 
 
  (:action all_hear_if_a_knows_his_number_1
+:parameters ()
+:precondition()
 :effect ( and 
 ( when (and (kaa1s0) (not(kaa1s1))) (and (s0s1b) (s0s1c) ))
 ( when (and (kaa1s0) (not(kaa1s2))) (and (s0s2b) (s0s2c) ))
@@ -1477,6 +1493,8 @@
 
 
  (:action all_hear_if_a_knows_his_number_2
+:parameters ()
+:precondition()
 :effect ( and 
 ( when (and (kaa2s0) (not(kaa2s1))) (and (s0s1b) (s0s1c) ))
 ( when (and (kaa2s0) (not(kaa2s2))) (and (s0s2b) (s0s2c) ))
@@ -1554,6 +1572,8 @@
 
 
  (:action all_hear_if_a_knows_his_number_3
+:parameters ()
+:precondition()
 :effect ( and 
 ( when (and (kaa3s0) (not(kaa3s1))) (and (s0s1b) (s0s1c) ))
 ( when (and (kaa3s0) (not(kaa3s2))) (and (s0s2b) (s0s2c) ))
