@@ -189,6 +189,17 @@ Single-step relational formulation.
 "Fully split" single-step relational formulation. The task files are the same
 as in ged1.
 
+## Domain by Bofill et al. (KEPS at ICAPS 2023)
+Snowman building problems from the paper "A Good Snowman is Hard to Plan" by
+Miquel Bofill, Cristina Borralleras, Joan Espasa, Gerard Martín, Gustavo
+Patow, Mateu Villaret (Workshop on Knowledge Engineering for Planning and
+Scheduling at ICAPS 2023), sourced from
+<https://github.com/udg-lai/KEPS2023/tree/main>.
+
+## snowman-reachability
+The only version of the domain that uses derived predicates (in contrast to
+snowman-basic and snowman-cheating).
+
 ## IPC Domains
 Domains with derived predicates used in IPC-4.
 They were sourced from (http://idm-lab.org/wiki/icaps/ipc2004/deterministic/domains.tgz).
