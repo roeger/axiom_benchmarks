@@ -29,7 +29,7 @@
 ;; cost should be divided by 7.
 
 (define (domain genome-edit-distance)
-  (:requirements :adl :derived-predicates :fluents)
+  (:requirements :adl :derived-predicates :fluents :action-costs)
 
   (:predicates
    ;; Static predicate, identifies duplicate copies of genes.
