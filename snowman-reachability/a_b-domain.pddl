@@ -6,6 +6,7 @@
         :equality
         :disjunctive-preconditions
         :conditional-effects
+        :adl
         :action-costs
     )
 
