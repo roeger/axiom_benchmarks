@@ -2,7 +2,7 @@
 The repository contains PDDL planning problems with derievd predicates and axioms.
 
 ## Domains by Ivankovic and Haslum(IJCAI, 2015)
-Domains by Franc Ivankovic and Patric Haslum, used under CC BY-SA 4.0 (http://creativecommons.org/licenses/by-sa/4.0/legalcode).
+Domains by Franc Ivankovic and Patrik Haslum, used under CC BY-SA 4.0 (http://creativecommons.org/licenses/by-sa/4.0/legalcode).
 Domains were sourced from (http://users.cecs.anu.edu.au/~patrik/tmp/fd-axiom-aware.tar.gz).
 
 ### sokoban-axioms:
@@ -40,7 +40,7 @@ axioms but without conditional effects.
 >trapped (i.e., no longer able to reach an exit).
 >>  Ivankovic and Haslum(IJCAI, 2015) 
 
-##Domains by Filipos Kominis and Hector Geffner (ICAPS 2015)
+## Domains by Filipos Kominis and Hector Geffner (ICAPS 2015)
 Problems by Filippos Kominis and Hector Geffner, from their paper
 "Beliefs in Multiagent Planning: From One Agent to Many" (ICAPS 2015).
 These are cooperative multi-agent planning with partial observability

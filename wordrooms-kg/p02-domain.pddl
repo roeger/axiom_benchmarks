@@ -1,5 +1,5 @@
 (define (domain dhmiourgimeno)
-(:requirements :conditional-effects)
+(:requirements :conditional-effects :disjunctive-preconditions)
 (:predicates
 (a1s0) 
 (a1s1) 
@@ -1186,6 +1186,8 @@
 (s9s9b)
 )
  (:action a_senses_what_b_knows_about_room_1
+:parameters()
+:precondition ()
 :effect ( and 
 ( when (and (kba_1s0) (not(kba_1s1))) (and (s0s1a) ))
 ( when (and (kba_1s0) (not(kba_1s2))) (and (s0s2a) ))
@@ -1551,6 +1553,8 @@
 
 
  (:action a_senses_what_b_knows_about_room_2
+:parameters()
+:precondition ()
 :effect ( and 
 ( when (and (kbt_2s0) (not(kbt_2s1))) (and (s0s1a) ))
 ( when (and (kbt_2s0) (not(kbt_2s2))) (and (s0s2a) ))
@@ -2006,6 +2010,8 @@
 
 
  (:action a_senses_what_b_knows_about_room_3
+:parameters()
+:precondition ()
 :effect ( and 
 ( when (and (kbl_3s0) (not(kbl_3s1))) (and (s0s1a) ))
 ( when (and (kbl_3s0) (not(kbl_3s2))) (and (s0s2a) ))
@@ -2461,6 +2467,8 @@
 
 
  (:action a_senses_what_b_knows_about_room_4
+:parameters()
+:precondition ()
 :effect ( and 
 ( when (and (kba_4s0) (not(kba_4s1))) (and (s0s1a) ))
 ( when (and (kba_4s0) (not(kba_4s2))) (and (s0s2a) ))
@@ -3006,6 +3014,8 @@
 
 
  (:action a_senses_what_b_knows_about_room_5
+:parameters()
+:precondition ()
 :effect ( and 
 ( when (and (kbs_5s0) (not(kbs_5s1))) (and (s0s1a) ))
 ( when (and (kbs_5s0) (not(kbs_5s2))) (and (s0s2a) ))
@@ -3281,6 +3291,8 @@
 
 
  (:action a_senses_what_b_knows_about_room_6
+:parameters()
+:precondition ()
 :effect ( and 
 ( when (and (kbempty_6s0) (not(kbempty_6s1))) (and (s0s1a) ))
 ( when (and (kbempty_6s0) (not(kbempty_6s2))) (and (s0s2a) ))
@@ -3376,6 +3388,8 @@
 
 
  (:action a_senses_what_b_knows_about_room_7
+:parameters()
+:precondition ()
 :effect ( and 
 ( when (and (kbempty_7s0) (not(kbempty_7s1))) (and (s0s1a) ))
 ( when (and (kbempty_7s0) (not(kbempty_7s2))) (and (s0s2a) ))
@@ -3471,6 +3485,7 @@
 
 
  (:action a_senses_in_room_1
+:parameters()
 :precondition (and  (a1) )
 :effect ( and 
 (s0s1a) 
@@ -3617,6 +3632,7 @@
 
 
  (:action a_senses_in_room_2
+:parameters()
 :precondition (and  (a2) )
 :effect ( and 
 (s0s1a) 
@@ -3783,6 +3799,7 @@
 
 
  (:action a_senses_in_room_3
+:parameters()
 :precondition (and  (a3) )
 :effect ( and 
 (s0s1a) 
@@ -3933,6 +3950,7 @@
 
 
  (:action a_senses_in_room_4
+:parameters()
 :precondition (and  (a4) )
 :effect ( and 
 (s0s1a) 
@@ -4091,6 +4109,7 @@
 
 
  (:action a_senses_in_room_5
+:parameters()
 :precondition (and  (a5) )
 :effect ( and 
 (s0s2a) 
@@ -4205,18 +4224,21 @@
 
 
  (:action a_senses_in_room_6
+:parameters()
 :precondition (and  (a6) )
 :effect ( and 
  ))
 
 
  (:action a_senses_in_room_7
+:parameters()
 :precondition (and  (a7) )
 :effect ( and 
  ))
 
 
  (:action b_senses_in_room_1
+:parameters()
 :precondition (and  (b1) )
 :effect ( and 
 (s0s1b) 
@@ -4363,6 +4385,7 @@
 
 
  (:action b_senses_in_room_2
+:parameters()
 :precondition (and  (b2) )
 :effect ( and 
 (s0s1b) 
@@ -4529,6 +4552,7 @@
 
 
  (:action b_senses_in_room_3
+:parameters()
 :precondition (and  (b3) )
 :effect ( and 
 (s0s1b) 
@@ -4679,6 +4703,7 @@
 
 
  (:action b_senses_in_room_4
+:parameters()
 :precondition (and  (b4) )
 :effect ( and 
 (s0s1b) 
@@ -4837,6 +4862,7 @@
 
 
  (:action b_senses_in_room_5
+:parameters()
 :precondition (and  (b5) )
 :effect ( and 
 (s0s2b) 
@@ -4951,18 +4977,21 @@
 
 
  (:action b_senses_in_room_6
+:parameters()
 :precondition (and  (b6) )
 :effect ( and 
  ))
 
 
  (:action b_senses_in_room_7
+:parameters()
 :precondition (and  (b7) )
 :effect ( and 
  ))
 
 
  (:action a_goes_from_room_8_to_room_1
+:parameters()
 :precondition (and  (a8)  (not_b1) )
 :effect ( and 
 ( when (and (a8s0) ) (and (not(a8s0)) (a1s0) ))
@@ -4980,6 +5009,7 @@
 
 
  (:action a_goes_from_room_8_to_room_2
+:parameters()
 :precondition (and  (a8)  (not_b2) )
 :effect ( and 
 ( when (and (a8s0) ) (and (not(a8s0)) (a2s0) ))
@@ -4997,6 +5027,7 @@
 
 
  (:action a_goes_from_room_8_to_room_3
+:parameters()
 :precondition (and  (a8)  (not_b3) )
 :effect ( and 
 ( when (and (a8s0) ) (and (not(a8s0)) (a3s0) ))
@@ -5014,6 +5045,7 @@
 
 
  (:action a_goes_from_room_8_to_room_4
+:parameters()
 :precondition (and  (a8)  (not_b4) )
 :effect ( and 
 ( when (and (a8s0) ) (and (not(a8s0)) (a4s0) ))
@@ -5031,6 +5063,7 @@
 
 
  (:action a_goes_from_room_8_to_room_5
+:parameters()
 :precondition (and  (a8)  (not_b5) )
 :effect ( and 
 ( when (and (a8s0) ) (and (not(a8s0)) (a5s0) ))
@@ -5048,6 +5081,7 @@
 
 
  (:action a_goes_from_room_8_to_room_6
+:parameters()
 :precondition (and  (a8)  (not_b6) )
 :effect ( and 
 ( when (and (a8s0) ) (and (not(a8s0)) (a6s0) ))
@@ -5065,6 +5099,7 @@
 
 
  (:action a_goes_from_room_8_to_room_7
+:parameters()
 :precondition (and  (a8)  (not_b7) )
 :effect ( and 
 ( when (and (a8s0) ) (and (not(a8s0)) (a7s0) ))
@@ -5082,6 +5117,7 @@
 
 
  (:action a_goes_from_room_1_to_8
+:parameters()
 :precondition (and  (a1) )
 :effect ( and 
 ( when (and (a1s0) ) (and (not(a1s0)) (a8s0) ))
@@ -5099,6 +5135,7 @@
 
 
  (:action a_goes_from_room_2_to_8
+:parameters()
 :precondition (and  (a2) )
 :effect ( and 
 ( when (and (a2s0) ) (and (not(a2s0)) (a8s0) ))
@@ -5116,6 +5153,7 @@
 
 
  (:action a_goes_from_room_3_to_8
+:parameters()
 :precondition (and  (a3) )
 :effect ( and 
 ( when (and (a3s0) ) (and (not(a3s0)) (a8s0) ))
@@ -5133,6 +5171,7 @@
 
 
  (:action a_goes_from_room_4_to_8
+:parameters()
 :precondition (and  (a4) )
 :effect ( and 
 ( when (and (a4s0) ) (and (not(a4s0)) (a8s0) ))
@@ -5150,6 +5189,7 @@
 
 
  (:action a_goes_from_room_5_to_8
+:parameters()
 :precondition (and  (a5) )
 :effect ( and 
 ( when (and (a5s0) ) (and (not(a5s0)) (a8s0) ))
@@ -5167,6 +5207,7 @@
 
 
  (:action a_goes_from_room_6_to_8
+:parameters()
 :precondition (and  (a6) )
 :effect ( and 
 ( when (and (a6s0) ) (and (not(a6s0)) (a8s0) ))
@@ -5184,6 +5225,7 @@
 
 
  (:action a_goes_from_room_7_to_8
+:parameters()
 :precondition (and  (a7) )
 :effect ( and 
 ( when (and (a7s0) ) (and (not(a7s0)) (a8s0) ))
@@ -5201,6 +5243,7 @@
 
 
  (:action b_goes_from_room_8_to_room_1
+:parameters()
 :precondition (and  (b8) )
 :effect ( and 
 ( when (and (b8s0) ) (and (not(b8s0)) (b1s0) ))
@@ -5218,6 +5261,7 @@
 
 
  (:action b_goes_from_room_8_to_room_2
+:parameters()
 :precondition (and  (b8) )
 :effect ( and 
 ( when (and (b8s0) ) (and (not(b8s0)) (b2s0) ))
@@ -5235,6 +5279,7 @@
 
 
  (:action b_goes_from_room_8_to_room_3
+:parameters()
 :precondition (and  (b8) )
 :effect ( and 
 ( when (and (b8s0) ) (and (not(b8s0)) (b3s0) ))
@@ -5252,6 +5297,7 @@
 
 
  (:action b_goes_from_room_8_to_room_4
+:parameters()
 :precondition (and  (b8) )
 :effect ( and 
 ( when (and (b8s0) ) (and (not(b8s0)) (b4s0) ))
@@ -5269,6 +5315,7 @@
 
 
  (:action b_goes_from_room_8_to_room_5
+:parameters()
 :precondition (and  (b8) )
 :effect ( and 
 ( when (and (b8s0) ) (and (not(b8s0)) (b5s0) ))
@@ -5286,6 +5333,7 @@
 
 
  (:action b_goes_from_room_8_to_room_6
+:parameters()
 :precondition (and  (b8) )
 :effect ( and 
 ( when (and (b8s0) ) (and (not(b8s0)) (b6s0) ))
@@ -5303,6 +5351,7 @@
 
 
  (:action b_goes_from_room_8_to_room_7
+:parameters()
 :precondition (and  (b8) )
 :effect ( and 
 ( when (and (b8s0) ) (and (not(b8s0)) (b7s0) ))
@@ -5320,6 +5369,7 @@
 
 
  (:action b_goes_from_room_1_to_8
+:parameters()
 :precondition (and  (b1) )
 :effect ( and 
 ( when (and (b1s0) ) (and (not(b1s0)) (b8s0) ))
@@ -5337,6 +5387,7 @@
 
 
  (:action b_goes_from_room_2_to_8
+:parameters()
 :precondition (and  (b2) )
 :effect ( and 
 ( when (and (b2s0) ) (and (not(b2s0)) (b8s0) ))
@@ -5354,6 +5405,7 @@
 
 
  (:action b_goes_from_room_3_to_8
+:parameters()
 :precondition (and  (b3) )
 :effect ( and 
 ( when (and (b3s0) ) (and (not(b3s0)) (b8s0) ))
@@ -5371,6 +5423,7 @@
 
 
  (:action b_goes_from_room_4_to_8
+:parameters()
 :precondition (and  (b4) )
 :effect ( and 
 ( when (and (b4s0) ) (and (not(b4s0)) (b8s0) ))
@@ -5388,6 +5441,7 @@
 
 
  (:action b_goes_from_room_5_to_8
+:parameters()
 :precondition (and  (b5) )
 :effect ( and 
 ( when (and (b5s0) ) (and (not(b5s0)) (b8s0) ))
@@ -5405,6 +5459,7 @@
 
 
  (:action b_goes_from_room_6_to_8
+:parameters()
 :precondition (and  (b6) )
 :effect ( and 
 ( when (and (b6s0) ) (and (not(b6s0)) (b8s0) ))
@@ -5422,6 +5477,7 @@
 
 
  (:action b_goes_from_room_7_to_8
+:parameters()
 :precondition (and  (b7) )
 :effect ( and 
 ( when (and (b7s0) ) (and (not(b7s0)) (b8s0) ))
@@ -5439,6 +5495,8 @@
 
 
  (:action b_senses_what_a_knows_about_room_1
+:parameters()
+:precondition()
 :effect ( and 
 ( when (and (kaa_1s0) (not(kaa_1s1))) (and (s0s1b) ))
 ( when (and (kaa_1s0) (not(kaa_1s2))) (and (s0s2b) ))
@@ -5804,6 +5862,8 @@
 
 
  (:action b_senses_what_a_knows_about_room_2
+:parameters()
+:precondition()
 :effect ( and 
 ( when (and (kat_2s0) (not(kat_2s1))) (and (s0s1b) ))
 ( when (and (kat_2s0) (not(kat_2s2))) (and (s0s2b) ))
@@ -6259,6 +6319,8 @@
 
 
  (:action b_senses_what_a_knows_about_room_3
+:parameters()
+:precondition()
 :effect ( and 
 ( when (and (kal_3s0) (not(kal_3s1))) (and (s0s1b) ))
 ( when (and (kal_3s0) (not(kal_3s2))) (and (s0s2b) ))
@@ -6714,6 +6776,8 @@
 
 
  (:action b_senses_what_a_knows_about_room_4
+:parameters()
+:precondition()
 :effect ( and 
 ( when (and (kaa_4s0) (not(kaa_4s1))) (and (s0s1b) ))
 ( when (and (kaa_4s0) (not(kaa_4s2))) (and (s0s2b) ))
@@ -7259,6 +7323,8 @@
 
 
  (:action b_senses_what_a_knows_about_room_5
+:parameters()
+:precondition()
 :effect ( and 
 ( when (and (kas_5s0) (not(kas_5s1))) (and (s0s1b) ))
 ( when (and (kas_5s0) (not(kas_5s2))) (and (s0s2b) ))
@@ -7534,6 +7600,8 @@
 
 
  (:action b_senses_what_a_knows_about_room_6
+:parameters()
+:precondition()
 :effect ( and 
 ( when (and (kaempty_6s0) (not(kaempty_6s1))) (and (s0s1b) ))
 ( when (and (kaempty_6s0) (not(kaempty_6s2))) (and (s0s2b) ))
@@ -7629,6 +7697,8 @@
 
 
  (:action b_senses_what_a_knows_about_room_7
+:parameters()
+:precondition()
 :effect ( and 
 ( when (and (kaempty_7s0) (not(kaempty_7s1))) (and (s0s1b) ))
 ( when (and (kaempty_7s0) (not(kaempty_7s2))) (and (s0s2b) ))

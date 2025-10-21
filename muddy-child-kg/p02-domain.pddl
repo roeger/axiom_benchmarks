@@ -1,5 +1,5 @@
 (define (domain dhmiourgimeno)
-(:requirements :conditional-effects)
+(:requirements :conditional-effects :disjunctive-preconditions)
 (:predicates
 (mas0) 
 (mas1) 
@@ -723,6 +723,8 @@
 (s15s15d)
 )
  (:action observation
+:parameters()
+:precondition ()
 :effect ( and 
 ( when (not(ps0)) (and (s0s0a) (s0s0b) (s0s0c) (s0s0d) 
 (s0s1a) (s0s1b) (s0s1c) (s0s1d) 
@@ -1001,6 +1003,8 @@
 
 
  (:action a_senses
+:parameters()
+:precondition ()
 :effect ( and 
 (s0s1a) 
 (s0s2a) 
@@ -1390,6 +1394,8 @@
 
 
  (:action b_senses
+:parameters()
+:precondition ()
 :effect ( and 
 (s0s1b) 
 (s0s2b) 
@@ -1779,6 +1785,8 @@
 
 
  (:action c_senses
+:parameters()
+:precondition ()
 :effect ( and 
 (s0s1c) 
 (s0s2c) 
@@ -2168,6 +2176,8 @@
 
 
  (:action d_senses
+:parameters()
+:precondition ()
 :effect ( and 
 (s0s1d) 
 (s0s2d) 
@@ -2557,6 +2567,8 @@
 
 
  (:action a_asks_b
+:parameters()
+:precondition ()
 :effect ( and 
 ( when (and (kbmbs0) (not(kbmbs1))) (and (s0s1a) (s0s1c) (s0s1d) ))
 ( when (and (kbmbs0) (not(kbmbs2))) (and (s0s2a) (s0s2c) (s0s2d) ))
@@ -2802,6 +2814,8 @@
 
 
  (:action a_asks_c
+:parameters()
+:precondition ()
 :effect ( and 
 ( when (and (kcmcs0) (not(kcmcs1))) (and (s0s1a) (s0s1b) (s0s1d) ))
 ( when (and (kcmcs0) (not(kcmcs2))) (and (s0s2a) (s0s2b) (s0s2d) ))
@@ -3047,6 +3061,8 @@
 
 
  (:action a_asks_d
+:parameters()
+:precondition ()
 :effect ( and 
 ( when (and (kdmds0) (not(kdmds1))) (and (s0s1a) (s0s1b) (s0s1c) ))
 ( when (and (kdmds0) (not(kdmds2))) (and (s0s2a) (s0s2b) (s0s2c) ))
