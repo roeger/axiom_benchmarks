@@ -176,6 +176,19 @@ A reformulation of doorexample-fixed-ghosh-etal-noaxioms using axioms.
 ### grid-cc2-ghosh-etal
 A reformulation of doorexample-fixed-ghosh-etal-noaxioms using axioms.
 
+## Domains by Patrik Haslum (SPARK at ICAPS 2011)
+Genome edit distance problems from Patrik Haslum's paper "Computing Genome Edit
+Distances using Domain-Independent Planning" (Scheduling and Planning
+Applications woRKshop at ICAPS 2011). They were sourced from
+<https://users.cecs.anu.edu.au/~patrik/#resources>.
+
+### ged1
+Single-step relational formulation.
+
+### ged1c
+"Fully split" single-step relational formulation. The task files are the same
+as in ged1.
+
 ## IPC Domains
 Domains with derived predicates used in IPC-4.
 They were sourced from (http://idm-lab.org/wiki/icaps/ipc2004/deterministic/domains.tgz).
