@@ -350,5 +350,5 @@
        (rightdiagonal ih jg)
        (rightdiagonal ii jh)
        (rightdiagonal ij ji))
-(:goal (forall (?x ?y - object) (AUX4 ?y ?x)))
+(:goal (forall (?x ?y) (AUX4 ?y ?x)))
 )

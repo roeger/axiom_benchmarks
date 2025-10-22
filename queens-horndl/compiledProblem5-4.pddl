@@ -77,5 +77,5 @@
        (rightdiagonal dc eb)
        (rightdiagonal dd ec)
        (rightdiagonal de ed))
-(:goal (forall (?x ?y - object) (AUX4 ?y ?x)))
+(:goal (forall (?x ?y) (AUX4 ?y ?x)))
 )
