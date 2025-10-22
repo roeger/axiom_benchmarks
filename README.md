@@ -26,6 +26,13 @@ axioms but without conditional effects.
 >size ≤ K. Hence, we call it the Min-Cut domain.
 >>  Ivankovic and Haslum(IJCAI, 2015) 
 
+### social-planning
+>Based loosely on "Planning-Based Narrative Generation in Simulated
+>Game Universes" (IEEE Trans. on Computational Intelligence and AI
+>in Games, 2009) and "Simulation-Based Story Generation with a Theory
+>of Mind" (AIIDE 2008), both by Hsueh-Min Chang and Von-Wun Soo.
+>>  social-planning/domain.pddl
+
 ### trapping game
 >As an example of a pseudo-adversarial domain with a more
 >complex opponent strategy, we consider a game of two players,
