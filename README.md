@@ -265,6 +265,22 @@ Marcel Steinmetz (AAAI 2022). They were sourced from
 >VTA-Roles is a more complex variant of VTA.
 >>  Supplementary material of Borgwardt et al. (AAAI 2022)
 
+## Speck et al. (ICAPS 20219)
+Problems from the paper "Symbolic Planning with Axioms" by David Speck, Florian
+Geißer, Robert Mattmüller, Álvaro Torralba (ICAPS 2019). They were sourced from
+<https://zenodo.org/records/12624112> (which belongs to the journal paper
+"Symbolic Search for Cost-Optimal Planning with Expressive Model Extensions"
+which is based on this paper) as a more stable source compared to
+<https://github.com/speckdavid/fd-symbolic-axioms/tree/master>.
+
+### blocks-axioms
+A variant of blocks with axioms. The origin of this domain is not completely
+clear. It probably either comes from the paper "Automatic Extraction of Axioms for
+Planning" by Shuwa Miura and Alex Fukunaga (ICAPS 2017), or was written by
+Álvaro Torralba for the paper "Symbolic Planning with Axioms" based on a
+version from "In Defense of PDDL Axioms" by Sylvie Thiébaux, Jörg Hoffmann,
+Bernhard Nebel (Artificial Intelligence Journal 2005).
+
 ## IPC Domains
 Domains with derived predicates used in IPC-4.
 They were sourced from (http://idm-lab.org/wiki/icaps/ipc2004/deterministic/domains.tgz).
