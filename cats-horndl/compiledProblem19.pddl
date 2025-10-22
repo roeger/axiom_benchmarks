@@ -33,5 +33,5 @@
        (contains bh be)
        (contains ac bl)
        (contains bc ab))
-(:goal (and (forall (?x - object) (AUX2 ?x)) (not (DATALOG_INCONSISTENT))))
+(:goal (and (forall (?x) (AUX2 ?x)) (not (DATALOG_INCONSISTENT))))
 )

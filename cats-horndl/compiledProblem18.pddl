@@ -31,5 +31,5 @@
        (contains ae az)
        (contains ac bg)
        (contains af ad))
-(:goal (and (forall (?x - object) (AUX2 ?x)) (not (DATALOG_INCONSISTENT))))
+(:goal (and (forall (?x) (AUX2 ?x)) (not (DATALOG_INCONSISTENT))))
 )
