@@ -3,7 +3,7 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 (define (domain BLOCKS)
-  (:requirements :strips)
+  (:requirements :strips :adl :derived-predicates)
   (:predicates (on ?x ?y)
                (noton ?x ?y)
 	       (ontable ?x)
