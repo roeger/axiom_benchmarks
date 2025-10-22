@@ -192,13 +192,71 @@ as in ged1.
 ## Domain by Bofill et al. (KEPS at ICAPS 2023)
 Snowman building problems from the paper "A Good Snowman is Hard to Plan" by
 Miquel Bofill, Cristina Borralleras, Joan Espasa, Gerard Martín, Gustavo
-Patow, Mateu Villaret (Workshop on Knowledge Engineering for Planning and
+Patow and Mateu Villaret (Workshop on Knowledge Engineering for Planning and
 Scheduling at ICAPS 2023), sourced from
 <https://github.com/udg-lai/KEPS2023/tree/main>.
 
-## snowman-reachability
+### snowman-reachability
 The only version of the domain that uses derived predicates (in contrast to
 snowman-basic and snowman-cheating).
+
+## Borgwardt et al. (AAAI 2022)
+Compiled versions of problems using background ontologies from the paper
+"Expressivity of Planning with Horn Description Logic Ontologies" by Stefan
+Borgwardt, Jörg Hoffmann, Alisa Kovtunova, Markus Krötzsch, Bernhard Nebel and
+Marcel Steinmetz (AAAI 2022). They were sourced from
+<https://zenodo.org/records/8139150>.
+
+### cats-horndl
+>In the Cats domain, there is a set of packages that contain either cats or
+>bombs and the task is to disarm all bombs.
+>>  Supplementary material of Borgwardt et al. (AAAI 2022)
+
+### drones-horndl
+>Drones models a complex 2D drone navigation problem, in which drones need to
+>be moved while avoiding certain situations.
+>>  Supplementary material of Borgwardt et al. (AAAI 2022)
+
+### elevator-horndl
+>An elevator in the Elevator benchmark can move up and down between floors to
+>serve passengers according to their origins and destinations.
+>>  Supplementary material of Borgwardt et al. (AAAI 2022)
+
+### queens-horndl
+>Queens generalizes the eight queens puzzle from chess to variable numbers of
+>board sizes, n ∈ {5, ..., 10}, and queens, m ∈ {n-4, ..., n}.
+>>  Supplementary material of Borgwardt et al. (AAAI 2022)
+
+### robot-horndl
+>In Robot (Calvanese et al. 2016), a robot is positioned on a grid without
+>knowing its position and the goal is to reach a target cell. The ontology
+>describes relations between rows and columns.
+>>  Supplementary material of Borgwardt et al. (AAAI 2022)
+
+### robotConj-horndl
+>RobotConj is a redesign of Robot, moving complexity from action descriptions
+>into [derived predicates].
+>>  Supplementary material of Borgwardt et al. (AAAI 2022)
+
+### taskassign-horndl
+>The goal of TaskAssign, inspired by (Calvanese et al. 2016), is to hire two
+>electronic engineers for a company, while the [derived predicates] describe
+>relations between different job positions.
+>>  Supplementary material of Borgwardt et al. (AAAI 2022)
+
+### tpsa-horndl
+>Both the VTA and TPSA benchmarks are adaptations from older work on semantic
+>web-service composition (Hoffmann et al.  2008).
+>>  Supplementary material of Borgwardt et al. (AAAI 2022)
+
+### vta-horndl
+>Both the VTA and TPSA benchmarks are adaptations from older work on semantic
+>web-service composition (Hoffmann et al.  2008).
+>>  Supplementary material of Borgwardt et al. (AAAI 2022)
+
+### vta-roles-horndl
+>VTA-Roles is a more complex variant of VTA.
+>>  Supplementary material of Borgwardt et al. (AAAI 2022)
 
 ## IPC Domains
 Domains with derived predicates used in IPC-4.
