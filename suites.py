@@ -27,69 +27,60 @@ def suite_no_derived_predicates():
            ]
 
 
+# domains where at least one axiom body contains a negated derived predicate
 def suite_negated_occurrences():
-    return ['acc-cc2-ghosh-etal',
-            'blocks-axioms',
-            'cats-horndl',
-            'doorexample-broken-ghosh-etal',
-            'doorexample-fixed-ghosh-etal',
+    return ['cats-horndl',
             'elevator-horndl',
-            'grid-cc2-ghosh-etal',
             'mincut',
-            'muddy-child-kg',
-            'muddy-children-kg',
-            'optimal-telegraphs',
-            'philosophers',
             'queens-horndl',
-            'snowman-reachability',
-            'social-planning',
             'sokoban-axioms',
-            'sokoban-axioms-easy-ground',
-            'taskassign-horndl',
             'trapping_game',
-            'wordrooms-kg',
             ]
 
 
+# domains that do not use functions except for action costs and where at least
+# one axiom body contains a negated derived predicate
 def suite_negated_occurrences_and_function_free():
+    return ['cats-horndl',
+            'elevator-horndl',
+            'queens-horndl',
+            'sokoban-axioms',
+            'trapping_game',
+            ]
+
+
+# domains where no axiom body contains a negated derived predicate (negated
+# basic predicates can still occur)
+def suite_only_positive_occurrences():
     return ['acc-cc2-ghosh-etal',
             'blocks-axioms',
-            'cats-horndl',
+            'collab-and-comm-kg',
             'doorexample-broken-ghosh-etal',
             'doorexample-fixed-ghosh-etal',
-            'elevator-horndl',
-            'grid-cc2-ghosh-etal',
-            'muddy-child-kg',
-            'muddy-children-kg',
-            'optimal-telegraphs',
-            'philosophers',
-            'queens-horndl',
-            'snowman-reachability',
-            'social-planning',
-            'sokoban-axioms',
-            'sokoban-axioms-easy-ground',
-            'taskassign-horndl',
-            'trapping_game',
-            'wordrooms-kg',
-            ]
-
-
-def suite_only_positive_occurrences():
-    return ['collab-and-comm-kg',
             'drones-horndl',
             'ged1',
             'ged1c',
             'grid-axioms',
+            'grid-cc2-ghosh-etal',
             'miconic-axioms',
+            'muddy-child-kg',
+            'muddy-children-kg',
+            'optimal-telegraphs',
+            'philosophers',
             'psr-large',
             'psr-middle',
             'psr-middle-noce',
             'robot-horndl',
             'robotConj-horndl',
+            'snowman-reachability',
+            'social-planning',
+            'sokoban-axioms-easy-ground',
             'sum-kg',
+            'taskassign-horndl',
             'tpsa-horndl',
             'vta-horndl',
             'vta-roles-horndl',
+            'wordrooms-kg',
             ]
 
 
