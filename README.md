@@ -265,6 +265,21 @@ Marcel Steinmetz (AAAI 2022). They were sourced from
 >VTA-Roles is a more complex variant of VTA.
 >>  Supplementary material of Borgwardt et al. (AAAI 2022)
 
+## Borgwardt et al. (KR 2025)
+Compiled versions of problems using background ontologies from the paper
+"Automated Planning with Ontologies under Coherence Update Semantics" by Stefan
+Borgwardt, Duy Nhu, Gabriele Röger (KR 2025). Only problems where derived
+predicates occur negated were sourced and they were sourced from
+<https://zenodo.org/records/16530898>.
+
+### cats-tseitin
+Five compilations of the cats domain: cats-tseitin-original, cats-tseitin-var0,
+cats-tseitin-var1, cats-tseitin-var2, cats-tseitin-var3
+
+### elevator-tseitin
+Five compilations of the elevator domain: elevator-tseitin-original, elevator-tseitin-var0,
+elevator-tseitin-var1, elevator-tseitin-var2, elevator-tseitin-var3
+
 ## Speck et al. (ICAPS 2019)
 Problems from the paper "Symbolic Planning with Axioms" by David Speck, Florian
 Geißer, Robert Mattmüller, Álvaro Torralba (ICAPS 2019). They were sourced from
