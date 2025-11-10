@@ -1,4 +1,5 @@
 (define (domain elevators)
+(:requirements :adl :derived-predicates)
 (:constants
   pass_u pass_r pass_l pass_o pass_b pass_c pass_v pass_d a e f g h i j k m n p q s t)
 (:predicates
