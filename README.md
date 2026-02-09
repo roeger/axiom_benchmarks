@@ -1,7 +1,7 @@
 # Planning Domains with Derived Predicates
 The repository contains PDDL planning problems with derievd predicates and axioms.
 
-## Domains by Ivankovic and Haslum(IJCAI, 2015)
+## Domains by Ivankovic and Haslum (IJCAI, 2015)
 Domains by Franc Ivankovic and Patrik Haslum, used under CC BY-SA 4.0 (http://creativecommons.org/licenses/by-sa/4.0/legalcode).
 Domains were sourced from (http://users.cecs.anu.edu.au/~patrik/tmp/fd-axiom-aware.tar.gz).
 
@@ -32,6 +32,21 @@ axioms but without conditional effects.
 >in Games, 2009) and "Simulation-Based Story Generation with a Theory
 >of Mind" (AIIDE 2008), both by Hsueh-Min Chang and Von-Wun Soo.
 >>  social-planning/domain.pddl
+
+### spanning-tree
+> Problem of making a spanning tree out of an initial graph, by adding edges
+> (to connect disconnected components) and removing edges (to reduce it to a
+> tree).
+>>  spanning-tree/domain.pddl
+
+This domain was not used for the experiments of the IJCAI 2015 paper by
+Ivankovic and Haslum but it is included in the archive linked above that
+contains the domains that were used in the paper.
+
+(February 2026) This domain causes the Fast Downward planner (and potentially
+planners built on it) to crash because of a bug in the planner's axiom
+normalization that transforms the axioms of this domain into an unstratifiable
+set of axioms.
 
 ### trapping game
 >As an example of a pseudo-adversarial domain with a more
