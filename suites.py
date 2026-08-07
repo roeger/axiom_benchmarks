@@ -85,7 +85,7 @@ def suite_only_positive_occurrences():
             'miconic-axioms',
             'muddy-child-kg',
             'muddy-children-kg',
-            'optimal-telegraphs',
+            'optical-telegraphs',
             'philosophers',
             'psr-large',
             'psr-middle',
