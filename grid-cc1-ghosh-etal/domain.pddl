@@ -1,5 +1,5 @@
 (define (domain grid)
- (:requirements :typing :fluents :equality)
+ (:requirements :typing :equality)
  (:types
          cell
          side)
