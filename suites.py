@@ -106,6 +106,11 @@ def suite_only_positive_occurrences():
             ]
 
 
+def suite_derived_predicates_function_free():
+    return sorted(suite_negated_occurrences_and_function_free() +
+                  suite_only_positive_occurrences())
+
+
 def suite_derived_predicates():
     return sorted(suite_negated_occurrences() +
                   suite_only_positive_occurrences())
