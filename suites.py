@@ -44,6 +44,7 @@ def suite_negated_occurrences():
             'mincut',
             'queens-horndl',
             'sokoban-axioms',
+            'spanning-tree',
             'trapping_game',
             ]
 
@@ -65,6 +66,7 @@ def suite_negated_occurrences_and_function_free():
             'elevator-tseitin-var3',
             'queens-horndl',
             'sokoban-axioms',
+            'spanning-tree',
             'trapping_game',
             ]
 
